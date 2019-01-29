@@ -1,0 +1,30 @@
+0x00
+What is a virtual machine
+    - A virtual machine is an emulation of a computer system.
+
+What is vagrant
+    - Vagrant is an open-source software product for building and maintaining portable virtual software development environments.
+
+Who wrote Vagrant
+    - Mitchell Hashimoto
+
+What is Ubuntu
+    - Ubuntu is a free and open-source Linux distribution.
+
+What does Ubuntu mean
+    - Ubuntu is named after the African philosophy of ubuntu, which Canonical translates as "humanity to others" or "I am what I am because of who we all are".
+
+How to use VMs with Vagranti
+    - 1) If vagrant box exists on system, create/initialize Vagrantfile
+        - use "vagrant init"
+    - 2) "Vagrant up" Vagrantfile
+        1) update "base" in config.vm.box="base" with preferred vagrantbox (e.g. ubuntu/trusty64
+        2) save Vagrantfile
+        3) run "vagrant up"
+    3) "ssh vagrant" to go into your VM
+    
+What does the command uname do
+    - the uname command prints certain system information
+
+What is a zero-day
+    - a zero-day is a computer-software vulnerability often referred to a "zero-day vulnerability" that is unknown to those who would be interested in mitigating--fixing/patching--the vulnerability.
